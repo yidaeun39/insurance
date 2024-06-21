@@ -12,7 +12,7 @@ import lombok.*;
 public class Reviewed extends AbstractEvent {
 
     private Long id;
-
+ 
     public Reviewed(Reivew aggregate) {
         super(aggregate);
     }
